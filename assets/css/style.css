@@ -1383,6 +1383,11 @@ img {
     font-size: 23px;
   }
 
+  .solution .container .info-box .chart {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+
   .go-start .container .start-title h1 {
     font-size: 35px;
   }
