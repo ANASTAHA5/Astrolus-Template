@@ -1040,6 +1040,9 @@ img {
 }
 
 @media (max-width:1025px) {
+  .header {
+    z-index: 1;
+  }
   .header .container .nav {
     display: none;
   }
@@ -1059,8 +1062,8 @@ img {
     padding: 30px 16px;
     border-radius: 17px;
     border: 1px solid var(--border-color);
-    z-index: 1;
-    box-shadow: 0 0 0 1000px #10172A;
+    z-index: -1;
+    box-shadow: 0 0 0 10000px #10172A;
   }
 
   .header .container .nav li:nth-child(5) {
@@ -1337,6 +1340,10 @@ img {
     font-size: 27px;
   }
 
+  .solution .container .info-box .chat .info {
+    text-align: center;
+  }
+
   .solution .container .info-box {
     text-align: center;
   }
@@ -1411,7 +1418,7 @@ img {
 
   .footer .container .sec-foot {
     justify-content: center;   
-     width: 266px;
+     width: 320px;
      height: 550px;
   }
 
@@ -1454,6 +1461,12 @@ img {
 
   .reviews .container .box p  {
     margin-top: 15px;
+  }
+
+  .footer .container .sec-foot {
+    justify-content: center;   
+     width: 266px;
+     height: 550px;
   }
 
 }
